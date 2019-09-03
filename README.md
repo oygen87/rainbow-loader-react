@@ -15,15 +15,29 @@ npm install --save rainbow-loader-react
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'rainbow-loader-react'
+import { RainbowLoader } from "rainbow-loader-react";
 
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <RainbowLoader />
     )
   }
 }
+```
+
+## Props
+
+`css?: React.CSSProperties;`
+
+Example :
+
+```tsx
+<RainbowLoader css={{ height: "1rem" }} />
+```
+
+```tsx
+<RainbowLoader css={{ width: "50%", animationDuration: "5s" }} />
 ```
 
 ## License
