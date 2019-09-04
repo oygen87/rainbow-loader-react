@@ -28,13 +28,17 @@ class Example extends React.Component {
 
 ## Properties
 
-Accepts prop `css?: React.CSSProperties;`
+|name|type               |
+|----|-------------------|
+|css |React.CSSProperties|
 
 Default props are :
 
-```css
-animationDuration: "2s"
-height: "1px"
+```
+{
+  animationDuration: "2s"
+  height: "1px"
+}
 ```
 
 Example usage with props :
