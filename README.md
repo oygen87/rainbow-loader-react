@@ -26,11 +26,18 @@ class Example extends React.Component {
 }
 ```
 
-## Props
+## Properties
 
-`css?: React.CSSProperties;`
+Accepts prop `css?: React.CSSProperties;`
 
-Example :
+Default props are :
+
+```css
+animationDuration: "2s"
+height: "1px"
+```
+
+Example usage with props :
 
 ```tsx
 <RainbowLoader css={{ height: "1rem" }} />
